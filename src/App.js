@@ -16,7 +16,7 @@ import { auth, createUserProfileDocument } from './firebase/firebase.utils';
 
 import { setCurrentUser } from './redux/user/user.actions';
 import { selectCurrentUser } from './redux/user/user.selectors';
-
+// this is me testing out git pull requests so i can actually submit the work i do on my coding challenges haha
 class App extends React.Component {
   unsubscribeFromAuth = null;
 
